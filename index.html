@@ -1,0 +1,174 @@
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sakura | Cocina Japonesa</title>
+    <link rel="stylesheet" href="./css/main.css">
+
+</head>
+<body>
+
+<header class="encabezado">
+    <a class="logo" href="#inicio">🌸 Sakura</a>
+
+  <button class="menu-btn" id="menu-btn" aria-label="Abrir menú"
+    aria-expanded="false">☰</button>
+
+  <nav class="menu" id="menu">
+    <a href="#inicio">Inicio</a>
+    <a href="#nosotros">Quiénes Somos</a>
+    <a href="#portafolio">Portafolio</a>
+    <a href="#servicios">Servicios</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+</header>
+
+<main>
+  <!-- INICIO -->
+  <section id="inicio" class="hero">
+    <div class="hero-texto">
+      <p class="subtitulo">日本の味 • El arte de la cocina japonesa</p>
+      <h1>Un viaje de sabores<br>con <span>Sakura</span></h1>
+      <p>Descubre la magia de la gastronomía japonesa,
+        preparada con dedicación, frescura y tradición.</p>
+      <a href="#portafolio" class="boton">Descubrir menú</a>
+    </div>
+
+    <div class="hero-imagen">
+      <img
+        src="https://images.unsplash.com/photo-1579871494447-9811cf80d66f?auto=format&fit=crop&w=1000&q=85"
+        alt="Variedad de sushi japonés">
+    </div>
+  </section>
+
+  <!-- QUIÉNES SOMOS -->
+  <section id="nosotros" class="seccion nosotros">
+    <div class="nosotros-imagen">
+      <img
+        src="https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=900&q=85"
+        alt="Ambiente de restaurante">
+    </div>
+
+    <div class="nosotros-texto">
+      <p class="subtitulo">Nuestra historia</p>
+      <h2>Bienvenidos a <span>Sakura</span></h2>
+      <p>Somos un espacio inspirado en la cultura japonesa,
+        donde los sabores, la armonía y los detalles se unen
+        para crear una experiencia especial.</p>
+      <p>Nuestra pasión es compartir platos deliciosos en
+        un ambiente acogedor que celebra la tradición.</p>
+
+      <div class="valores">
+        <div><strong>🍃 Frescura</strong><br>Ingredientes seleccionados</div>
+        <div><strong>🥢 Tradición</strong><br>Inspiración japonesa</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTAFOLIO -->
+  <section id="portafolio" class="seccion portafolio">
+    <div class="titulo-seccion">
+      <p class="subtitulo">Nuestros sabores</p>
+      <h2>Un menú lleno de <span>magia</span></h2>
+      <p>Conoce algunas de nuestras especialidades.</p>
+    </div>
+
+    <div class="tarjetas">
+      <article class="tarjeta">
+        <img src="https://images.unsplash.com/photo-1579871494447-9811cf80d66f?auto=format&fit=crop&w=800&q=80"
+          alt="Sushi tradicional">
+        <div class="tarjeta-contenido">
+          <h3>Sushi tradicional</h3>
+          <p>Arroz, alga y una combinación de sabores delicados.</p>
+        </div>
+      </article>
+
+      <article class="tarjeta">
+        <img src="https://images.unsplash.com/photo-1569718212165-3a8278d5f624?auto=format&fit=crop&w=800&q=80"
+          alt="Ramen japonés">
+        <div class="tarjeta-contenido">
+          <h3>Ramen japonés</h3>
+          <p>Fideos y caldo reconfortante con deliciosos acompañamientos.</p>
+        </div>
+      </article>
+
+      <article class="tarjeta">
+        <img src="https://images.unsplash.com/photo-1553621042-f6e147245754?auto=format&fit=crop&w=800&q=80"
+          alt="Rollos especiales">
+        <div class="tarjeta-contenido">
+          <h3>Rollos especiales</h3>
+          <p>Preparaciones creativas llenas de color y textura.</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- SERVICIOS -->
+  <section id="servicios" class="seccion servicios">
+    <div class="titulo-seccion">
+      <p class="subtitulo">Lo que ofrecemos</p>
+      <h2>Nuestros <span>servicios</span></h2>
+      <p>Disfruta Sakura como más te guste.</p>
+    </div>
+
+    <div class="servicios-grid">
+      <article class="servicio">
+        <div class="icono">🍱</div>
+        <h3>Comida en el restaurante</h3>
+        <p>Disfruta de nuestros platos en un ambiente tranquilo y acogedor.</p>
+      </article>
+
+      <article class="servicio">
+        <div class="icono">🛵</div>
+        <h3>Domicilios</h3>
+        <p>Disfruta tus sabores favoritos en casa. Consulta la disponibilidad.</p>
+      </article>
+
+      <article class="servicio">
+        <div class="icono">🎉</div>
+        <h3>Eventos especiales</h3>
+        <p>Opciones gastronómicas para compartir en celebraciones y reuniones.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section id="contacto" class="seccion contacto">
+    <div class="titulo-seccion">
+      <p class="subtitulo">Hablemos</p>
+      <h2>Contáctanos <span>🌸</span></h2>
+      <p>¿Tienes preguntas o deseas consultar nuestros servicios?</p>
+    </div>
+
+    <form id="form-contacto" class="formulario">
+      <label for="nombre">Tu nombre</label>
+      <input id="nombre" name="nombre" type="text"
+        placeholder="Escribe tu nombre" required>
+
+      <label for="correo">Tu correo electrónico</label>
+      <input id="correo" name="correo" type="email"
+        placeholder="ejemplo@correo.com" required>
+
+      <label for="mensaje">Tu mensaje</label>
+      <textarea id="mensaje" name="mensaje" rows="5"
+        placeholder="¿En qué podemos ayudarte?" required></textarea>
+
+      <button class="boton" type="submit">Preparar mensaje</button>
+      <p id="respuesta" role="status" aria-live="polite"></p>
+    </form>
+  </section>
+</main>
+
+<footer class="pie">
+  <a class="logo logo-pie" href="#inicio">🌸 Sakura</a>
+  <p>La armonía de Japón en cada sabor.</p>
+  <p>© <span id="anio"></span> Sakura. Todos los derechos reservados.</p>
+</footer>
+
+<button id="subir" class="subir" aria-label="Volver arriba">↑</button>
+<script src="./js/main.js"></script>
+</body>
+</html>
